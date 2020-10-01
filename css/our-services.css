@@ -1,0 +1,61 @@
+#our-services {
+    background-image: url(../bg1.jpg);
+    background-size: cover;
+    padding: 150px 0;
+    margin: 0px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#services-title {
+    padding-bottom: 100px;
+}
+
+#service-cards, .first-cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+#first-cards {
+    padding-bottom: 55px;
+}
+
+#service-icon {
+    /* border: rgb(230, 151, 26) 3px solid; */
+    border-radius: 100px;
+    padding: 15px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+
+.first-card {
+    height: auto;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    padding: 35px;
+}
+
+.first-card:hover {
+    background-color: rgba(224, 224, 224, 0.739);
+
+}
+
+.first-card:hover > #service-icon {
+    border: none;
+    color: rgb(0, 89, 255);
+    transform: scale(1.5);
+}
+
+.first-card:hover > .card-text {
+    color: black;
+
+}
+
+.first-card:hover > .card-title {
+    color: rgb(0, 89, 255);
+}

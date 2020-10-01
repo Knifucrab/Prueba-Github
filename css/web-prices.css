@@ -1,0 +1,39 @@
+.web-prices {
+    background-image: url(../img/prices-background-dk.jpg);
+    background-size: cover;
+}
+
+.btn-asesoramiento {
+    background-color: rgba(228, 49, 49, 0);
+    color: black;
+    border: 2px solid #007bff ;
+    text-decoration: none;
+}
+
+.col-price{
+    height: 480px;
+}
+
+.card:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.card-body  .btn-asesoramiento {
+    transition: 0.3s;
+}
+.card-body:hover  .btn-asesoramiento {
+    background-color: white;
+    border: none;
+    padding: 16px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+
+
+
+
+
+
+
